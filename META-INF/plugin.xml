@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>org.bouh.nord.jetbrains</id>
   <name>Nord Darker</name>
-  <version>0.13.7-darker</version>
+  <version>0.14.0-darker</version>
   <vendor email="development@arcticicestudio.com" url="https://www.arcticicestudio.com">Arctic Ice Studio</vendor>
 
   <description>
@@ -9,6 +9,15 @@
       An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme.
     ]]>
   </description>
+
+  <change-notes>
+    <![CDATA[
+      <h3>0.14.0</h3>
+      <ul>
+        <li>Add the "Nord Darker Islands" theme, based on the Islands Dark UI (IntelliJ 2025.3+).</li>
+      </ul>
+    ]]>
+  </change-notes>
 
   <!-- See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for details.-->
   <idea-version since-build="191.0"/>
@@ -22,6 +31,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="12345678-9123-4567-8a73-14af69073eae" path="/nord.theme.json"/>
+    <themeProvider id="5c1e0d2a-7f3b-4e8a-9b61-2d4f8a73c0e1" path="/nord-islands.theme.json"/>
   </extensions>
 
   <actions>
